@@ -1,0 +1,25 @@
+{
+  "name": "datadog-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DD_ENV=dev DD_SERVICE=test-app1 DD_VERSION=1.0 DD_LOGS_INJECTION=true node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeviDeng/datadog-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeviDeng/datadog-test/issues"
+  },
+  "homepage": "https://github.com/LeviDeng/datadog-test#readme",
+  "dependencies": {
+    "dd-trace": "^4.20.0",
+    "koa": "^2.14.2",
+    "pino": "^8.17.0"
+  }
+}

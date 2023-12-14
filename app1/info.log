@@ -1,0 +1,6 @@
+{"level":50,"time":1702536129820,"pid":81742,"hostname":"levideMacBook-Pro.local","dd":{"service":"datadog-test","version":"1.0.0","env":"dev"},"msg":"test error"}
+{"level":50,"time":1702536297810,"pid":82254,"hostname":"levideMacBook-Pro.local","dd":{"service":"datadog-test","version":"1.0.0","env":"dev"},"msg":"test error"}
+{"level":50,"time":1702536442602,"pid":82404,"hostname":"levideMacBook-Pro.local","dd":{"service":"test-app1","version":"1.0","env":"dev"},"msg":"test error"}
+{"level":50,"time":1702536915308,"pid":82585,"hostname":"levideMacBook-Pro.local","dd":{"service":"test-app1","version":"1.0","env":"dev"},"msg":"test error"}
+{"level":50,"time":1702537153234,"pid":82890,"hostname":"levideMacBook-Pro.local","dd":{"service":"test-app1","version":"1.0","env":"dev"},"msg":"test error"}
+{"level":50,"time":1702537927514,"pid":83350,"hostname":"levideMacBook-Pro.local","dd":{"service":"test-app1","version":"1.0","env":"dev"},"msg":"test error"}
