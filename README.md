@@ -1,2 +1,2 @@
 # datadog-test
-foo..
+hello world...
