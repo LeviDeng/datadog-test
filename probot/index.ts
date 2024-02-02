@@ -26,7 +26,7 @@ run((app) => {
       name: 'test-required',
       check_run_id: checkRun.data.id,
       completed_at: new Date().toISOString(),
-      conclusion: 'success',
+      conclusion: 'failure',
       title: 'Something went wrong',
     });
   });
