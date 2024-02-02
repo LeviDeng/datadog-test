@@ -6,8 +6,10 @@ run((app) => {
     'pull_request.reopened',
     'pull_request.synchronize', // Handle new commits & amends
   ], async (context: Context<'pull_request'>) => {
-    const {owner, repo, pull_number} = context.pullRequest();
+    const {owner, repo} = context.pullRequest();
     const head_sha = context.payload.pull_request.head.sha;
+
+    app.log.info(context.payload);
 
     const checkRun = await context.octokit.checks.create({
       owner,
@@ -24,7 +26,7 @@ run((app) => {
       name: 'test-required',
       check_run_id: checkRun.data.id,
       completed_at: new Date().toISOString(),
-      conclusion: 'failure',
+      conclusion: 'success',
       title: 'Something went wrong',
     });
   });
